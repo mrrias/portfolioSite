@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="dark">
+    <header class="header">
+      <h1 class="logo">{ / } <strong>AlbyPortfolio</strong></h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <button id="themeToggle">✦</button>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="hero">
+        <h2>Hey, I'm <span>Alby Long</span></h2>
+        <p>Fullstack Developer • Bot Builder</p>
+      </section>
+
+      <section id="about">
+        <h3>About Me</h3>
+        <p>
+          I am sixteen year old who has worked on many projects that work with
+          both frontend and backend code and many using a combination of both to
+          achieve the final product. <br /><br />
+          One of my main interests is creating Discord bots because, well, I
+          enjoy it. <br />
+          Design isn't my strong point but I love getting to make something you
+          get to see in action right away which makes bot development a great
+          choice for me as they require little to no design and you get to see
+          them in action right away.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="project-grid">
+          <div class="card">
+            <h4>Shiro</h4>
+            <p>
+              Shiro is a Discord bot I made using a JavaScript library called
+              <a
+                href="https://discord.js.org/"
+                style="color: inherit; text-decoration: none"
+                ><strong>discord.js</strong></a
+              >
+              <br />
+              <br />
+              This library is used to create many different popular professional
+              Discord bots and tends to be favoured over discord.py due to its
+              use with the well loved programming language of JavaScript.
+              <br /><br />
+            </p>
+            <video name="Shiro" autoplay loop muted playsinline preload="auto">
+              <source src="Media/ShiroBot.mov" />
+            </video>
+          </div>
+          <div class="card">
+            <h4>Shiro Docs</h4>
+            <p>
+              Shiro Docs is a documentation website I made in order to make
+              documentation easy to access and read to anyone using my bot.
+              <br /><br />
+              Shiro docs were built with
+              <strong>HTML, CSS, JavaScript</strong> to provide a basic overview
+              of what Shiro can do as well as provide details on some useful
+              commands to get started using the bot started. <br /><br />
+            </p>
+            <video
+              name="Shiro Docs"
+              autoplay
+              loop
+              muted
+              playsinline
+              preload="auto"
+            >
+              <source src="Media/ShiroDocs.mov" />
+            </video>
+          </div>
+          <div class="card">Project Three</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Last updated 03/02/2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

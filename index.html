@@ -35,13 +35,12 @@
           get to see in action right away which makes bot development a great
           choice for me as they require little to no design and you get to see
           them in action right away. <br /><br />
-          <i>You can see some of my projects below!</i>
         </p>
       </section>
 
       <section id="projects">
         <h3>Projects</h3>
-        <div class="project-grid">
+        <div id="triggerDiv" class="project-grid">
           <div class="card">
             <h4>Shiro</h4>
             <p>
@@ -62,6 +61,7 @@
               <source src="Media/ShiroBot.mov" />
             </video>
           </div>
+
           <div class="card">
             <h4>Shiro Docs</h4>
             <p>
@@ -84,8 +84,51 @@
               <source src="Media/ShiroDocs.mov" />
             </video>
           </div>
-          <div class="card">Project Three</div>
+          <div class="card">
+            <h4>Project Three</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et unde ipsum placeat itaque pariatur distinctio, sapiente molestias dolor modi quo facere architecto obcaecati, quibusdam maiores ipsam quia quod tenetur officia. <br><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit natus distinctio consectetur nisi laudantium ea dolor. Temporibus sit aperiam laboriosam iusto, animi minus veniam, optio commodi et obcaecati, quibusdam mollitia.
+            </p>
+          </div>
         </div>
+
+        <!-- POPUP -->
+        <div id="cardPopup" class="popup-overlay">
+          <div class="popup-content">
+            <!-- SHIRO -->
+            <div class="popupProjectCard">
+              <h4>Shiro</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus consequatur necessitatibus odit! Dolorem, id architecto corrupti, laboriosam aspernatur quia a nam quidem maxime corporis ea ut magnam molestiae obcaecati?</p>
+            </div>
+
+            <!-- SHIRO DOCS -->
+            <div class="popupProjectCard">
+              <h4>Shiro Docs</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus consequatur necessitatibus odit! Dolorem, id architecto corrupti, laboriosam aspernatur quia a nam quidem maxime corporis ea ut magnam molestiae obcaecati?</p>
+            </div>
+
+            <!-- THREE -->
+            <div class="popupProjectCard">
+              <h4>Three</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus consequatur necessitatibus odit! Dolorem, id architecto corrupti, laboriosam aspernatur quia a nam quidem maxime corporis ea ut magnam molestiae obcaecati?</p>
+            </div>
+
+            <!-- FOUR -->
+            <div class="popupProjectCard">
+              <h4>Four</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus consequatur necessitatibus odit! Dolorem, id architecto corrupti, laboriosam aspernatur quia a nam quidem maxime corporis ea ut magnam molestiae obcaecati?</p>
+            </div>
+
+            <!-- FIVE -->
+            <div class="popupProjectCard">
+              <h4>Five</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus consequatur necessitatibus odit! Dolorem, id architecto corrupti, laboriosam aspernatur quia a nam quidem maxime corporis ea ut magnam molestiae obcaecati?</p>
+            </div>
+            <button class="close-popup-btn" onclick="closePopup()">
+              х
+            </button>
+          </div>
       </section>
     </main>
 
